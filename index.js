@@ -38,7 +38,7 @@ class Route {
     return horizontalBlocks + verticalBlocks;
   }
 
-  estimatedTime(peakHours = false) {
+  estimatedTime(peakHours=false) {
     if (peakHours === true) {
       let totalTime = blocksTravelled() / 2;
     };
