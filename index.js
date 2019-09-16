@@ -42,7 +42,7 @@ class Route {
     if (peakHours === true) {
       let totalTime = blocksTravelled() / 2;
     };
-    else if (peakHours === false) {
+    else {
       let totalTime = blocksTravelled() / 3;
     };
     
